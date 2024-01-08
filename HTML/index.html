@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p{
+            display: inline;
+            background-color: teal;
+        }
+        section+section{
+            background-color: teal;
+        }
+    </style>
+</head>
+<body >
+
+<img src="test.png" alt="다음 첫 화면">
+<p>다음 첫 화면</p>
+<ol>
+    <li>Introduction</li>
+    <li>List of Grievances</li>
+    <li>Conclusion</li>
+</ol>
+<!-- <a> element links to the section below -->
+<p><a href="#Section_further_down">Jump to the heading below</a></p>
+<section>
+    hello
+</section>
+<!-- Heading to link to -->
+<section>
+    <h2 id="Section_further_down">Section further down</h2>
+</section>
+<a href="mailto:google@gmail.com">mailto:google@gmail.com</a>
+<a href="tel:010-0000-0000">010-1234-1234</a>
+<a href="test.html" download="hangle.hwp">test로 이동합니다.</a>
+
+<!-- p태그 사이에는 완전한 문장이 넣어져야함 줄 띄우고 싶을때는 p태그 남발 x, br태그 사용하기-->
+</body>
+</html>
